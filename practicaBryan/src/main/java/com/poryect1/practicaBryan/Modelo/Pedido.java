@@ -19,7 +19,7 @@ public class Pedido {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Getter
     @Setter
-    private long id;
+    public long id;
 
     @Column
     @Getter
