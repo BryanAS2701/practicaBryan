@@ -25,10 +25,12 @@ public class Pedido {
     @Column
     @Getter
     @Setter
+    @NotBlank
     private String name;
 
     @Column
     @Getter
     @Setter
+    @NotBlank
     private String tipo;
 }
